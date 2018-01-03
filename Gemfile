@@ -29,4 +29,6 @@
  # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
  gem 'turbolinks'
 
+ gem 'bootstrap-sass'
+
 #how does it know where to find these files???
