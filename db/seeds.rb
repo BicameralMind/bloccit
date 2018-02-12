@@ -17,6 +17,17 @@
      body:   RandomData.random_paragraph
    )
  end
+
+50.times do
+ # #1
+   Advertisement.create!(
+ # #2
+     title:  RandomData.random_sentence,
+     body:   RandomData.random_paragraph,
+     price: RandomData.random_number
+   )
+ end
+
  posts = Post.all
  
  # Create Comments
